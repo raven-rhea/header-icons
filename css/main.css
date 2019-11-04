@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
-  font-family: "Merriweather", serif;
   line-height: 1.5;
+  font-family: Merriweather, serif;
 }
 
 *, *::before, *::after {
@@ -49,17 +49,26 @@ ul {
 }
 
 a {
+  display: inline-block;
   text-decoration: none;
   color: #fff;
   align-content: center;
-  width: 100%;
-  padding: .4rem 0;
+  width: 33.333%;
+  padding: 0;
 }
 
 ul li {
-text-align: center;
-font-size: 1.125rem;
-width: 33.333%;
-padding: .4rem 0;
-border: 1px solid #a63f38;
+  text-align: center;
+  font-size: 1.125rem;
+  width: 33.333%;
+  padding: .4rem 0;
+  border: 1px solid #a63f38;
+}
+
+li:hover {
+  background-color: #a63f38;
+}
+
+a:hover {
+  background-color: #a63f38;
 }
